@@ -8,17 +8,17 @@
 }
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 40px;
     align-items: center;
 }
 .navbar__brand a {
     color: #86ba09;
     font-size: 3rem;
-    text-decoration: none;
     font-weight: bolder;
     text-transform: uppercase;
-    margin: 0;
+
+    
 }
 .navbar__list {
     list-style: none;
@@ -209,6 +209,7 @@
     border-radius: 15px;
     margin-right: 20px;
     margin-top: 30px;
+    overflow: hidden;
 }
 .product__img img {
     width: 100%;
@@ -223,6 +224,7 @@
 .feature__top h1 {
     font-size: 3.5rem;
     text-align: center;
+    padding-bottom: 40px;
 }
 .feature__nav  {
     display: flex;
@@ -230,6 +232,7 @@
     font-size: 1.8rem;
     font-weight: 550;
     text-transform: uppercase;
+    padding-bottom: 40px;
 }
 .feature__nav__title a {
     color: rgba(102,102,102,0.85);
@@ -244,13 +247,13 @@
     padding-left: 40px;
 }
 .feature__content {
-    border: 2px solid white;
+    border: 2px solid rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     flex-basis: 80%;
-    overflow: hidden;
     width: 100%;
     height: auto;
     transition: 0.6s ease;
+    margin-top: 30px;
 }
 .feature__content:hover {
     transform: scale(1.1);
@@ -290,7 +293,8 @@
     padding-top: 50px;
 }
 .sale__top {
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 .sale__title {
     background-image: url('./img/sale\ background.jpg');
@@ -353,7 +357,8 @@
 }
 .sale__bottom__img {
     border-radius: 2px;
-    
+    overflow: hidden;
+    margin-top: 30px;
 }
 .sale__bottom__img img {
     transition: 0.6s ease;
