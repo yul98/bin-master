@@ -195,7 +195,7 @@
     z-index: 0;
 }
 .carousel-item {
-    height: 600px;
+    max-height: 650px;
 }
 /* End Hero section */
 
@@ -213,6 +213,7 @@
 }
 .product__img img {
     width: 100%;
+    height: auto;
     transition: 0.6s ease;
 }
 .product__img img:hover {
