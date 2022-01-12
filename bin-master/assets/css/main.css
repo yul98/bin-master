@@ -42,6 +42,7 @@
     color:rgb(134, 186, 9);
 }
 .navbar__list__item--active a {
+    padding-left: 20px;
     color: rgb(134, 186, 9);
     font-weight: 550;
 }
