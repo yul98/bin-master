@@ -22,7 +22,12 @@ a {
         opacity: 1;
     }
 }
-
+@media only screen and (min-width: 1023px) {
+    /* Header */
+    .nav__search__form input[type='text'] {
+        width: 500px;
+    }
+}
 /* Media query for tablet & mobile */
 @media only screen and (max-width: 1023px) {
     /* header */
@@ -48,9 +53,10 @@ a {
 }
 /* Media query for tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    /* Feature section */
-    
-    /* End Feature section */
+    /* Header */
+    .nav__search__form input[type='text'] {
+        width: 300px;
+    }
 }
 /*  Media query for mobile */
 @media only screen and (max-width: 576px) {
@@ -68,6 +74,7 @@ a {
     }
     .feature__nav {
         flex-wrap: wrap;
+        justify-content: center;
     }
     /* End Feature section */
 
