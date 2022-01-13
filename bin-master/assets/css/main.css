@@ -271,12 +271,45 @@
 
 /* Slide section*/
 .slide {
-    background-image: url(./img/slide-intro.jpg);
+    min-height: 180px;
+    background-image: url(./img/gerbera-flower-gb9a9c47fa_1920.jpg);
+    text-transform: uppercase;
 }
 .slide h1 {
-    color: red;
+    padding-top: 50px;
+    color: #fff;
+    text-align: center;
+}
+.slide__nav {
+    color: #fff;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-weight: 550;
+}
+.slide__nav a {
+    color: #fff;
+    padding-right: 20px;
+}
+.slide__nav span {
+    padding-right: 20px;
 }
 /* End Slide secion*/
+
+/* Infor section */
+.intro__infor {
+    text-align: center;
+}
+.intro__infor span {
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 600;
+}
+.intro__infor p {
+    font-size: 1.8rem;
+}
+/* End Infor section */
 
 /* Product section */
 .product {
