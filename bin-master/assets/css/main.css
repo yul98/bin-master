@@ -287,6 +287,20 @@
 }
 /* End Slide section */
 
+/* Infor section */
+.intro__infor {
+    text-align: center;
+}
+.intro__infor span {
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 600;
+}
+.intro__infor p {
+    font-size: 1.8rem;
+}
+/* End Infor section */
+
 /* Product section */
 .product {
     position: relative;
